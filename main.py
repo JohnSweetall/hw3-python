@@ -18,8 +18,7 @@ def run():
 
   numb = int(input("Enter an int: "))
   sum1 = digit_sum(numb)
-  print(f"sum is {sum1}.")
+  print(f"sum of digits of {numb} is {sum1}.")
   
-
 if __name__ == "__main__":
   run()
